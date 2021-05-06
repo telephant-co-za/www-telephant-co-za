@@ -8,7 +8,7 @@ phases:
      - echo "pre_build step"
  build:
    commands:
-     - aws s3 sync --delete . "s3://www.telephant.co.za" --exclude "README.md" --exclude ".git/"  --exclude "buildspec.yml"
+     - aws s3 sync --delete . "s3://www.telephant.co.za" --exclude "README.md" --exclude ".git"  --exclude "buildspec.yml"
  post_build:
    commands:
      - echo "post_build step"
