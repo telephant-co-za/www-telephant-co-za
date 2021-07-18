@@ -13,4 +13,4 @@
 This static landing page will be hosted separately from the app and will not be a part of the Single Page App, which will be hosted on a separate subdomain (app). Other relevant static pages, such as the Terms and Conditions page, will be linked from this page.  This configuration enables for a redirect by Route 53 back to this landing page in the event that the app servers go down and are unavailable.
 
 ### Available
-The live website can be found at: [https://www.telephant.co.za](https://www.telephant.co.za).
+The live website can be found at: [http://www.telephant.co.za/](http://www.telephant.co.za/).
